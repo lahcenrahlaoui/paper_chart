@@ -1,0 +1,132 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+body{
+  background:#1a1b1c /*#29323c*/
+}
+.container {
+  margin: 50px 0 100px 0;
+  width: 50%;
+  height: auto;
+}
+
+.make-it-center{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chart-style{ 
+  padding:20px;
+  padding-top: 50PX;
+  border-radius: 9px;
+  background: #1a1b1c;
+  width: 88%;
+  height: 85%;
+  border: 3px solid #00cccc;
+  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255); */
+}
+.chart-style2{ 
+  padding:20px;
+  border-radius: 9px;
+  background: #1a1b1c;
+  width: 90%;
+  height: 70%;
+  border: 3px solid #00cccc;
+  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255); */
+}
+.chart-style3{ 
+  padding:20px;
+  border-radius: 9px;
+  background: #1a1b1c;
+  width: 90%;
+  height: 97%;
+  border: 3px solid #00cccc;
+  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255); */
+}
+.app-vesitors-chart{
+  width: 90%; 
+  height: 93%; 
+  transition: 1s;
+}
+.squar{
+  color:#dde4ec;
+  width: 170px;
+  height: 170px;
+  background-color: #1a1b1c;
+  margin: 0 25px  0 25px;
+  border: 3px solid #00cccc;
+  border-radius: 20px;
+  padding: 20px;
+}
+.squar-title{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.squar-number{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.grid-vesitors{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+} 
+
+
+
+/*******      table    **********/
+
+.first-grid-table{
+  display:grid;
+  grid-template-columns: 49.5% 1% 49.5%;
+  margin:2px;
+  padding: 5px;
+  font-size: 23px;
+}
+
+table {
+  font-family: "Arial";
+  margin: 5px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+table tr:hover {
+  background: #2c2e30 
+}
+
+table th, table td {
+  color: rgb(209, 209, 209);
+  border: 1px solid #00cccc;
+  padding: 10px 10px;
+  border-collapse: collapse;
+  font-size:  20px;
+  text-align: center;
+  width: 1000px;
+
+}
+table th {
+  background: #ffffff0a;
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+}
+
+.font-title{
+  color:#fff;
+  font-size: 22px;
+  margin: 5px;
+}
+/******    Fin table *******/

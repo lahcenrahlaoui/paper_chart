@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>first page</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+
+        <script src="echarts.js"></script>
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" />
+
+        <link rel="stylesheet" href="cssFolder/firstStyle.css" />
+        <link rel="stylesheet" href="cssFolder/navbarStyle.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+
+        <div id="fileNames"></div>
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <nav>
+                <div class="sidebar">
+                    <div id="humberger">
+                        <div class="line" id="idline1"></div>
+                        <div class="line" id="idline2"></div>
+                        <div class="line" id="idline3"></div>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="grid-li">
+                                    <i class="fas fa-home"></i>
+                                    <div class="bb hide-menu">Home</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main_content">
+                <div class="header" id="demo">Welcome!! Have a nice day.</div>
+                <div class="info">
+                    <div class="grid-vesitors">
+                        <div>
+                            <div class="squar">
+                                <div class="squar-title">This month</div>
+                                <div class="squar-number">275</div>
+                            </div>
+                            <div class="squar">
+                                <div class="squar-title">Licence</div>
+                                <div class="squar-number">163</div>
+                            </div>
+                            <div class="squar">
+                                <div class="squar-title">Master</div>
+                                <div class="squar-number">120</div>
+                            </div>
+                        </div>
+                        <div class="chart-style app-vesitors-chart">
+                            <canvas id="app-vesitors-chart"></canvas>
+                        </div>
+                        n
+                    </div>
+                    <div class="make-it-center">
+                        <div class="chart-style">
+                            <canvas id="final-note-chart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="make-it-center">
+                        <div class="container chart-style2">
+                            <div class="grid-container">
+                                <div class="for-grid">
+                                    <canvas id="nationality-chart"></canvas>
+                                </div>
+                                <div class="for-grid">
+                                    <canvas id="above-ten-chart"></canvas>
+                                </div>
+                                <div class="for-grid"><canvas id="gender-chart"></canvas></div>
+                                <div id="main" style="width: 900px; height: 450px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="first-grid-table input-toggle">
+                        <div class="chart-style3">
+                            <center class="font-title">The Top Student</center>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Department</th>
+                                        <th>Year</th>
+                                        <th>Speciality</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="p-n-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-d-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-y-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-s-1"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="p-n-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-d-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-y-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-s-2"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="p-n-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-d-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-y-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-s-3"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="p-n-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-d-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-y-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="p-s-4"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div></div>
+
+                        <div class="chart-style3">
+                            <center class="font-title">The Failed Students</center>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Department</th>
+                                        <th>Year</th>
+                                        <th>Speciality</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div id="n-n-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-d-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-y-1"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-s-1"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="n-n-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-d-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-y-2"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-s-2"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="n-n-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-d-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-y-3"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-s-3"></div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div id="n-n-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-d-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-y-4"></div>
+                                        </td>
+                                        <td>
+                                            <div id="n-s-4"></div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="first_js/first-app-vesitors.js"></script>
+        <script src="first_js/first-Notes-everyone.js"></script>
+        <script src="first_js/first-piechart.js"></script>
+
+        <script src="pie.js"></script>
+
+        <script src="js_global/js_file_1.js"></script>
+        <script src="js_global/js_file_2.js"></script>
+        <script src="js_global/js_file_3.js"></script>
+        <script src="navfunctions.js"></script>
+    </body>
+
+</html>

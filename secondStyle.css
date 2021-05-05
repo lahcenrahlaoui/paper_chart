@@ -1,0 +1,283 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bree Serif", serif;
+}
+body{
+  background:#1a1b1c /*#29323c*/
+}
+
+.make-it-center{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chart-style{ 
+  padding:20px;
+  padding-top: 50PX;
+  border-radius: 9px;
+  background: #1a1b1c;
+  width: 90%;
+  height: 100%;
+  border: 3px solid #00cccc;
+  /* box-shadow: 1px 1px 1px 2px rgba(255, 255, 255); */
+  display: flex;
+  justify-content: center
+}
+
+.chart-style2{ 
+  padding:20px;
+  border-radius: 9px;
+  background: #1a1b1c;
+  width: 70%;
+  height: 70%;
+  border: 3px solid #00cccc;
+}
+
+
+.chart-width{
+  min-width:700px;
+}
+
+.grid-id{
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.squar{
+  color:#dde4ec;
+  width: 170px;
+  height: 170px;
+  background-color: #1a1b1c;
+  margin: 55px 25px  0 25px;
+  border: 3px solid #00cccc;
+  border-radius: 20px;
+  padding: 20px;
+}
+.squar-title{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.squar-number{
+  margin-top: 25px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  /*background-color: #2196F3; */
+} 
+
+
+/*
+.graph-name{
+  padding: 20px;
+  background: #e5e5e5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+*/
+
+.input-text-outside{
+  margin: 15px;
+
+}
+.input-id-css{
+  width: auto;
+  height: 45px;
+  padding: 5px 7px;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  text-align: center;
+  font-size: 26px;
+  border: 0;
+}
+.input-id-css:focus{
+  outline: 0;
+
+}
+/*
+.radio-css{
+  margin:10px 20px;
+  
+}
+table, th, td {
+  margin: 0 auto;
+  border: 1px solid ;
+  border-collapse: collapse;
+  border-color: #010101;
+  width: 450px;
+
+}
+th, td {
+  padding: 10px;
+}
+
+.table{
+  font-size: 20px;
+  color: #010101;
+  margin: 0 auto ;
+  width: 80%;
+  padding:20px;
+  border-radius: 5px;
+  background: #d0d0d0;
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.1);
+}
+*/
+
+
+/* 
+#loading {
+
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* z-index: -1; *
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 0.5);
+  background-image: url("Screenshot_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* animation: hide 3s linear ; *
+}
+
+.page{ 
+  display : none;
+  opacity: 0;
+  /*display: none;*
+  padding: 0 0.5em; 
+  /* animation: show 3s linear;
+  animation-delay: 3s; *
+}
+ */
+
+
+.page    { 
+  display: none; 
+  /* padding: 0 0.5em;  */
+  animation: show 3s ;
+}
+
+.loadd {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(87, 41, 41, 0.5);
+  background-image: url("Screenshot_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: 750px 500px;
+  animation: hide  3.5s ;
+}
+
+
+
+@keyframes hide {
+  from { opacity: 1;}
+  to   {  opacity: 0; }
+}
+
+@keyframes show {
+  from {opacity: 0;}
+  to   {  opacity: 1;}
+}
+
+
+
+.inin{
+  display: flex;
+  margin: 0 auto;
+}
+
+
+
+.chart-grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+
+.first-grid-table{
+  display:grid;
+  grid-template-columns: 49.5% 1% 49.5%;
+}
+
+.first-div-grid{
+  padding: 20px;
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.div-last-table{
+  margin:2px;
+  padding: 5px;
+  font-size: 23px;
+}
+
+
+
+
+/*******      table    **********/
+
+table {
+  font-family: "Arial";
+  margin: 5px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+table tr:hover {
+  background: #f4f4f4;
+}
+table tr:hover td {
+  color: #555;
+}
+table th, table td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 20px 45px;
+  border-collapse: collapse;
+}
+table th {
+  background: #00cccc;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+table th.last {
+  border-right: none;
+}
+
+
+.font-title{
+  font-size: 22px;
+  margin: 5px;
+}
+
+
+.newnewnew{
+  width:1000px;
+  height: 900px;
+}
+
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
