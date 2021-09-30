@@ -78,3 +78,15 @@ $('table tr').each(function(){
 
 $('table tr').first().addClass('row-first');
 $('table tr').last().addClass('row-last');
+var hakim = document.getElementById("this-element")
+var animations = hakim.getAnimations()
+
+for(var i =1; i<hakim.clientHeight;i++){
+  animations.values[i]= animations.values[i+1]
+}
+var hakim = document.getElementById("this-element")
+var animations = hakim.getAnimations()
+
+for(var i =1; i<hakim.clientHeight;i++){
+  animations.values[i]= animations.values[i+1]
+}
